@@ -11,3 +11,11 @@ def verificarNumero(x):
         return print('O número é zero!')
 verificarNumero(numero)
 
+# Atividade usando and e or
+a=2
+b=6
+c=3
+operacaoAnd = a == b and c*a == b
+print(operacaoAnd)
+operacaoOr = a == b or c * a == b
+print(operacaoOr)
