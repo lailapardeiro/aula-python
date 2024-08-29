@@ -1,3 +1,5 @@
+# 29/08/2024
+# Utilização de Operadores Relacionais
 a = 5 
 b = 3 
 

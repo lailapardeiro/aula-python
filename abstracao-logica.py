@@ -1,4 +1,5 @@
 
+# 23/08/2024
 # Atividade sobre abstração lógica 
 numero=input('Digite um número: ')
 def verificarNumero(x):
@@ -11,6 +12,8 @@ def verificarNumero(x):
         return print('O número é zero!')
 verificarNumero(numero)
 
+
+# 28/08/2024
 # Atividade usando and e or
 a=2
 b=6
