@@ -1,4 +1,4 @@
-# 29/08/2024
+# 28/08/2024
 # Utilização de Operadores Relacionais
 a = 5 
 b = 3 
@@ -27,6 +27,7 @@ print(resultado)
 resultado = a <= b 
 print(resultado)
 
+# 29/08/2024
 # Exercício 
 
 # Declarando variáveis

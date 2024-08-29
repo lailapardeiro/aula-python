@@ -1,4 +1,4 @@
-# 29/08/2024
+# 28/08/2024
 # Utilização de Operadores Aritméticos.
 a = 5
 b = 3 
