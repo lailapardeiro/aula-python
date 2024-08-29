@@ -49,11 +49,11 @@ else:
     print('Ana está fazendo a compra adiantada')
 
 if(pedidoMinimoPizza > pedidoPizza):
-    print('Ana não comprou pizzas suficientes!')
-elif(pedidoMinimoPizza < pedidoPizza):
-    print('Ana comprou mais pizzas que o necessário')
-else: 
-    print('Ana comprou as pizzas!')
+    if(pedidoMinimoPizza == pedidoPizza):
+        print('Ana comprou o mínimo pedido de pizzas!')
+    print('Ana não comprou o suficiente!')
+else:
+    print('Ana comprou mais pizzas do que o esperado!')
 
 
 if(pedidoMinimoBebida < pedidoBebida):
