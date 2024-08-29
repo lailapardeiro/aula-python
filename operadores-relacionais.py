@@ -43,19 +43,37 @@ pedidoMinimoBebida = 12
 pedidoMinimoBolo = 5
 pedidoMinimoDoce = 600
 
-if diaFesta == (dia):
+if diaFesta == dia:
     print('Ana está fazendo as compras no dia da festa!')
 else:
     print('Ana está fazendo a compra adiantada')
 
-if(pedidoMinimoPizza) >= pedidoPizza:
+if(pedidoMinimoPizza > pedidoPizza):
     print('Ana não comprou pizzas suficientes!')
+elif(pedidoMinimoPizza < pedidoPizza):
+    print('Ana comprou mais pizzas que o necessário')
+else: 
+    print('Ana comprou as pizzas!')
 
-if(pedidoMinimoBebida) < pedidoBebida:
+
+if(pedidoMinimoBebida < pedidoBebida):
     print('Ana comprou mais bebidas que o necessário!')
+elif(pedidoMinimoBebida == pedidoBebida):
+    print('Ana comprou a quantidade necessária de bebidas!')
+else:
+    print('Não comprou as bebidas suficientes!')
 
-if(pedidoMinimoBolo) <= pedidoBolo:
+
+if(pedidoMinimoBolo < pedidoBolo):
     print('Ana excedeu a compra de bolos!')
+elif(pedidoMinimoBolo == pedidoBolo):
+    print('Ana comprou mais bolos que o necessário!')
+else: 
+    print('Ana comprou os bolos!')
 
-if(pedidoMinimoDoce) > pedidoDoce:
+if(pedidoMinimoDoce > pedidoDoce):
     print('Ana não comprou doces suficientes!')
+elif(pedidoMinimoDoce < pedidoMinimoDoce):
+    print('Ana comprou mais doces que o imaginado!')
+else: 
+    print('Ana comprou a quantidade necessária de doces!')
