@@ -19,13 +19,25 @@ resultado = a / b
 print(f'A divisão é de: {resultado}')
 
 # Divisão Inteira (//)
-resultado = b // c 
+resultado = b // a
 print(f'A divisão inteira é de: {resultado}')
 
 # Resto da Divisão (%)
-resultado = c % a 
+resultado = a % b
 print(f'O resto da divisão é de: {resultado}')
 
 # Exponêncial (**)
-resultado = b ** a 
+resultado = a ** b 
 print(f'O resultado da exponênciação é de: {resultado}')
+
+
+# Declarando variável
+saldoInicial = 50
+custoRefrigerante = 8
+custoPao = 4 
+custoMortadela = 39.90
+
+valorCompra = (custoRefrigerante) * 2 + custoPao + ((custoMortadela / 1000) * 300)
+
+saldoFinal = saldoInicial - valorCompra
+print(f'José chegou om  R${saldoInicial} e saiu com R${saldoFinal}')
