@@ -12,22 +12,28 @@ Dicas
 """
 
 
-
 # Código Refatorado
 
 # Váriaveis de Preço
 valores = [100, 200, 300]
-totalInicial = sum(valores)
 
-desconto = 0 
-if totalInicial > 500:
-    desconto = totalInicial * 0.1
+# totalInicial é a soma dos valores da lista acima.
+total_inicial = sum(valores) 
 
-totalDesconto = totalInicial - desconto
+print(f'Preço Total: {total_inicial}') 
 
-print(f'Total antes do desconto: {totalInicial}')
-print(f'Desconto aplicado: {desconto}')
-print(f'Total com desconto: {totalDesconto}')
+# SE totalInicial for maior que 500, aplica um desconto de 10%
+if total_inicial > 500:
+# O total da compra é o totalInicial menos o desconto.
+    total_desconto = total_inicial - (total_inicial * 0.1) 
+    print(f'Total com desconto: {total_desconto}')
+else:
+    diferenca = 500 - total_inicial
+    print(f'Faltou {diferenca} para o desconto ser aplicado! Deseha incluir mais produtos?')
+
+
+
+
 
 
 
