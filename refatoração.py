@@ -11,27 +11,23 @@ Dicas
 ● Vocês tem total autonomia de refatorar o código da forma que quiserem, ajustar, implementar mais funções, etc.
 """
 
-# Código Original 
-
-# Variáveis de Preço
-p1 = 100
-p2 = 200
-p3 = 300 
-
-t = p1 + p2 + p3
-
-desc = 0 
-if t > 500:
-    desc = t * 0.1
-
-r = t - desc
-
-print('Total antes do desconto:', t)
-print('Desconto aplicado:', desc)
-print('Total com desconto:', r )
 
 
+# Código Refatorado
 
+# Váriaveis de Preço
+valores = [100, 200, 300]
+totalInicial = sum(valores)
+
+desconto = 0 
+if totalInicial > 500:
+    desconto = totalInicial * 0.1
+
+totalDesconto = totalInicial - desconto
+
+print(f'Total antes do desconto: {totalInicial}')
+print(f'Desconto aplicado: {desconto}')
+print(f'Total com desconto: {totalDesconto}')
 
 
 
