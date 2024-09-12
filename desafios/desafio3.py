@@ -13,7 +13,7 @@ nome = input('Digite seu nome completo: ')
 sobrenome = nome.split()
 if len(sobrenome) > 1:
     sobrenome = sobrenome[-1]
+    print(f'Bem vindo, {sobrenome}!')
 
 else:
     sobrenome = "Sobrenome não encontrado, tente novamente!"
-print(f'Bem vindo, {sobrenome}!')
