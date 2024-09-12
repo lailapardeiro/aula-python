@@ -9,10 +9,11 @@
             # ○ nome = “Leonardo”
             # ○ len(nome) # Saída: 8
 
-nome = input('Digite seu nome: ')
+nome = input('Digite seu nome completo: ')
 sobrenome = nome.split()
 if len(sobrenome) > 1:
     sobrenome = sobrenome[-1]
+
 else:
-    sobrenome = "Sobrenome não encontrado"
-print(sobrenome)
+    sobrenome = "Sobrenome não encontrado, tente novamente!"
+print(f'Bem vindo, {sobrenome}!')
