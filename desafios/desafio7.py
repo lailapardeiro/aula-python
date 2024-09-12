@@ -6,7 +6,7 @@
                 # ○ if aluno in notas:
                 # ○ Esse if tem o significado de = “Se aluno que foi digitado existe na lista = True”
 
-aluno = {'laila': 70, 'leonardo': 57, 'sofia': 70}
+aluno = {'laila': 70, 'cauã': 57, 'lorena': 70}
 
 nome = input('Digite o aluno que deseja saber a nota: ')
 if nome in aluno:
