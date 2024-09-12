@@ -7,4 +7,9 @@ sobrenome = input('Digite seu sobrenome: ')
 print(f'Bem vindo {nome} {sobrenome}!')
 
 
+# outro jeito
+nome = input('Digite seu nome: ')
+sobrenome = input('Digite seu sobrenome: ')
+mensagem = 'Bem-vindo, ' + nome + ' ' + sobrenome + '!'
+print(mensagem)
 
