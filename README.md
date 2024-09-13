@@ -8,4 +8,5 @@
 <h7>04/09 - Teste de Mesa e Refatoração.</h7>
 <h7>05/09 - História e Introdução à Python.</h7>
 <h7>11/09 - Tipos de dados e Instruções de I/O + Desafios.</h7>
+<h7>12/09 - Funções e Variáveis.</h7>
 
