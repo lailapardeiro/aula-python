@@ -6,10 +6,25 @@
                 # ○ if aluno in notas:
                 # ○ Esse if tem o significado de = “Se aluno que foi digitado existe na lista = True”
 
-aluno = {'laila': 70, 'cauã': 57, 'lorena ': 70}
+alunos = {"laila": 80, "caua": 95, "lorena": 100}
 
-nome = input('Digite o aluno que deseja saber a nota: ')
-if nome in aluno:
-    print(f'A nota de {nome} é:', aluno[nome])
+def recuperarNotaAluno(aluno):
+    if aluno in alunos:
+        print(f"O aluno {aluno} está com nota: {alunos[aluno]}")
+    else:
+        print("Aluno não encontrado! Tente novamente")
 
+        operacao = input("Deseja tentar novamente? (S/N) ")
+        if operacao.upper() == "S":
+            main()
+        elif operacao.upper() == "N":
+            print("Programa finalizado!")
+        else:
+            print("Operação não reconhecida! O programa irá finalizar!")
+        
 
+def main():
+    aluno = input("Digite o nome do aluno que deseja consultar a nota: ")
+    recuperarNotaAluno(aluno)
+
+main()   
