@@ -9,4 +9,9 @@
 <h7>05/09 - História e Introdução à Python.</h7>
 <h7>11/09 - Tipos de dados e Instruções de I/O + Desafios.</h7>
 <h7>12/09 - Funções e Variáveis.</h7>
+<h7>18/09 - Exercícios sobre Funções e Varíaveis.</h7>
+<h7>19/09 - Exceções.</h7>
+<h7>25/09 - Estruturas de Decisão e Laços de Repetição.</h7>
+<h7>26/09 - Programação em Python</h7>
+
 
