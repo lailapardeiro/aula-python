@@ -13,5 +13,10 @@
 <h7>19/09 - Exceções.</h7>
 <h7>25/09 - Estruturas de Decisão e Laços de Repetição.</h7>
 <h7>26/09 - Programação em Python</h7>
+<h7>02/10 - Programação de Jogos</h7>
+<h7>03/10 - Programação com Pygame</h7>
+<h7>09/10 - Processo para Desenvolvimento de um Software.</h7>
+<h7>10/10 - </h7>
+<h7></h7>
 
 
