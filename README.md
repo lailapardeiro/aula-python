@@ -16,7 +16,8 @@
 ###### 02/10 - Programação de Jogos
 ###### 03/10 - Programação com Pygame
 ###### 09/10 - Processo para Desenvolvimento de um Software.
-###### 10/10 -
+###### 10/10 - Teste de Software.
+###### 16/10 - Validação de Software.
 
 
 
