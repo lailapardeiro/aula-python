@@ -18,6 +18,11 @@
 ###### 09/10 - Processo para Desenvolvimento de um Software.
 ###### 10/10 - Teste de Software.
 ###### 16/10 - Validação de Software.
+###### 17/10 - Atividade Sobre Validação de Software.
+###### 23/10 - 
+###### 24/10 -
+
+
 
 
 
