@@ -19,7 +19,7 @@
 ###### 10/10 - Teste de Software.
 ###### 16/10 - Validação de Software.
 ###### 17/10 - Atividade Sobre Validação de Software.
-###### 23/10 - 
+###### 23/10 - Conexão com Banco de Dados
 ###### 24/10 -
 
 
