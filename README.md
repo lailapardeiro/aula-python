@@ -20,7 +20,7 @@
 ###### 16/10 - Validação de Software.
 ###### 17/10 - Atividade Sobre Validação de Software.
 ###### 23/10 - Conexão com Banco de Dados.
-###### 24/10 - Consultando API. 
+###### 24/10 - Consultando API externa. 
 
 
 
